@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Анкета відвдувача ресторану ВЕСЕЛІ ПЛЯЦКИ</title>
+</head>
+<body>
+    <header>
+       <h1>Анкета відвідувача ресторану ВЕСЕЛІ ПЛЯЦКИ</h1>
+       <a href="index.html"><h4>Повернутись на головну</h4></a>
+    </header>
+    <main>
+        <form method="POST" action="https://formspree.io/klukvin@ukr.net">
+        <section>
+            <h2>Контактна інформація</h2>
+            <label>
+                Імя: <input type="text" name="user-name">
+            </label>
+            <br>
+            <label for="user-email">Електронна адреса: </label>
+            <input id="user-email" type="email" name="user-email">
+            <br>
+            <label>
+                Телефон: <input type="tel" name="user-tel">
+            </label>
+        </section>
+        <section>
+            <h2>Додаткова інформація</h2>
+            <label>Оберіть стать: </label>
+            <br>
+            <label>
+                <input type="radio" name="gander" value="чоловік"> Чоловік
+            </label>
+            <label>
+                <input type="radio" name="gander" value="жінка"> Жінка
+            </label>
+            <label>
+                <input type="radio" name="gander" value="інше"> Інше
+            </label>
+            <br>
+        <label>Оберіть вік: </label>
+        <br>
+        <select>
+<option value="до 20 р">до 20 р</option>
+<option value="20-30 р">20-30 р</option>
+<option value="30-50 р">30-50 р</option>
+<option value="більше 50 р">більше 50 р</option>
+</select>
+        </section>
+        <section>
+            <h2>Ваша оцінка</h2>
+            <label>1. Звідки ви дізнались про нас: </label>
+            <br>
+            <label>
+                <input type="radio" name="advertising-tv" value="так"> реклама по ТБ
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="advertising-internet" value="так"> реклама в інтернет
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="advertising-other" value="так"> iнші джерела
+            </label>
+            <br>
+            <label>2. Ви порекомендуєте нас вашим друзям: </label>
+            <br>
+            <label>
+                <input type="radio" name="advice" value="так"> так
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="advice" value="ні"> ні
+            </label>
+        </section>
+        <input type="submit" value="ВІДПРАВИТИ">
+        </form>
+    </main>
+    <footer>
+            <h3>2019 Всі права захищено</h3>
+    </footer>
+</body>
+</html>
