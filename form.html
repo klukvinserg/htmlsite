@@ -25,9 +25,18 @@
             <label>
                 Телефон: <input type="tel" name="user-tel">
             </label>
+            <br>
+            <label>
+                Дата відвідування: <input type="date" name="date-of-visit"
+            </label>
         </section>
         <section>
             <h2>Додаткова інформація</h2>
+            <label>Ваш вік: </label>
+            <label>
+                <input type="number" min="1" max="200" step="1"name="age">
+            </label>
+            <br>
             <label>Оберіть стать: </label>
             <br>
             <label>
@@ -40,14 +49,6 @@
                 <input type="radio" name="gander" value="інше"> Інше
             </label>
             <br>
-        <label>Оберіть вік: </label>
-        <br>
-        <select>
-<option value="до 20 р">до 20 р</option>
-<option value="20-30 р">20-30 р</option>
-<option value="30-50 р">30-50 р</option>
-<option value="більше 50 р">більше 50 р</option>
-</select>
         </section>
         <section>
             <h2>Ваша оцінка</h2>
@@ -65,7 +66,16 @@
                 <input type="radio" name="advertising-other" value="так"> iнші джерела
             </label>
             <br>
-            <label>2. Ви порекомендуєте нас вашим друзям: </label>
+            <label>2. Що вам найбільше сподобалось: </label>
+        <br>
+        <select>
+<option value="пляцок">пляцок</option>
+<option value="начинка">начинка</option>
+<option value="персонал">персонал</option>
+<option value="інтерєр">інтерєр</option>
+</select>
+            <br>
+            <label>3. Ви порекомендуєте нас вашим друзям: </label>
             <br>
             <label>
                 <input type="radio" name="advice" value="так"> так
